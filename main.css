@@ -1,3 +1,4 @@
+
 .nav a {
     color: black;
 }
@@ -12,5 +13,52 @@
 .mar20{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.bg-banner {
+	background-image: linear-gradient(to bottom right, blue, orange);
+	height: 100vh;
+	position: relative;
+}
+.portfolio {
+	content: 'PORTFOLIO';
+	display: inline-block;
+	color: black;
+	opacity: 0.04;
+	font-weight: 700;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 20rem;
+}
+.m-top {
+	margin-top: 30vh;
+}
+
+#banner p {
+	font-size: 1.5em;
+}
+
+#banner h1 {
+	font-size: 5em;
+	font-weight: bolder;
+}
+
+.wrap {
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.white-text {
+	color: white;
+}
+
+#section-one p {
+	color: gray;
+
 }
 
