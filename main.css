@@ -1,0 +1,12 @@
+.nav a {
+    color: black;
+}
+.navbar-header > a{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.nav button{
+    margin-top: 8px;
+    border-radius: 20px;
+}
+
