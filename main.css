@@ -1,18 +1,18 @@
 
 .nav a {
-    color: black;
+	color: black;
 }
 .navbar-header > a{
-    font-size: 25px;
-    font-weight: bolder;
+	font-size: 25px;
+	font-weight: bolder;
 }
 .nav button{
-    margin-top: 8px;
-    border-radius: 20px;
+	margin-top: 8px;
+	border-radius: 20px;
 }
 .mar20{
-    margin-top: 20px;
-    margin-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 body {
@@ -24,6 +24,7 @@ body {
 	height: 100vh;
 	position: relative;
 }
+
 .portfolio {
 	content: 'PORTFOLIO';
 	display: inline-block;
@@ -59,7 +60,26 @@ body {
 
 #section-one p {
 	color: gray;
+}
 
+.gray-text {
+	color: gray;
+}
+
+#section-three i {
+	color: red;
+	margin-top: 5%;
+}
+
+
+
+#section-three hr {
+	border: 1px solid red;
+	width: 40px;
+}
+
+.bg-card p {
+	margin-bottom: 5%;
 }
 .tekst{
     padding-top: 55px;
@@ -72,7 +92,7 @@ body {
 }
 
 .back1{
-     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Kptl-2D_Nwwdo-O5iMnINd7kXJ-NFFBUNOqyhqCVXxVB80wg");
+     /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Kptl-2D_Nwwdo-O5iMnINd7kXJ-NFFBUNOqyhqCVXxVB80wg"); */
 }
 .back2{
     background-image: url("https://images.pexels.com/photos/209695/pexels-photo-209695.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
@@ -96,11 +116,44 @@ body {
     background-image: url("https://assets.pcmag.com/media/images/450179-samsung-galaxy-s8.jpg?width=810&height=456");
 }
 .tekst:hover {
- background-image: none;
+/* background-image: none; */
+background: rgba(255,255,255,0.93);
 }
 .tekst:hover h2, .tekst:hover p {
     visibility: visible;
 } 
 
+.overlay {
+    background: rgba(255,255,255,0.93);
+}
 
 
+
+
+.bg-card:hover {
+	background-image: linear-gradient(to bottom right, blue, orange);
+	border-radius: 10px;
+}
+
+.bg-card:hover hr {
+	border-color: white !important;
+}
+
+.bg-card:hover i,
+.bg-card:hover h3,
+.bg-card:hover p {
+	color: white !important;
+}
+
+.bg-lightgray {
+	background-color: lightgray;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	background-image: none;
+}
+.carousel-control,
+.carousel-control:hover {
+	color: black;
+}
