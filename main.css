@@ -1,10 +1,24 @@
+
+.nav a {
+	color: black;
+}
+.navbar-header > a{
+	font-size: 25px;
+	font-weight: bolder;
+}
+.nav button{
+	margin-top: 8px;
+	border-radius: 20px;
+}
+.mar20{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 body {
 	font-family: 'Ubuntu', sans-serif;
 }
 
-nav {
-	background-color: white;
-}
 .bg-banner {
 	background-image: linear-gradient(to bottom right, blue, orange);
 	height: 100vh;
@@ -52,3 +66,47 @@ nav {
 	color: gray;
 }
 
+#section-three i {
+	color: red;
+	margin-top: 5%;
+}
+
+
+
+#section-three hr {
+	border: 1px solid red;
+	width: 40px;
+}
+
+.bg-card p {
+	margin-bottom: 5%;
+}
+
+
+.bg-card:hover {
+	background-image: linear-gradient(to bottom right, blue, orange);
+	border-radius: 10px;
+}
+
+.bg-card:hover hr {
+	border-color: white !important;
+}
+
+.bg-card:hover i,
+.bg-card:hover h3,
+.bg-card:hover p {
+	color: white !important;
+}
+
+.bg-lightgray {
+	background-color: lightgray;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	background-image: none;
+}
+.carousel-control,
+.carousel-control:hover {
+	color: black;
+}
