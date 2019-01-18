@@ -61,4 +61,46 @@ body {
 	color: gray;
 
 }
+.tekst{
+    padding-top: 55px;
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+}
+.tekst h2, .tekst p{
+    visibility: hidden;
+}
+
+.back1{
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Kptl-2D_Nwwdo-O5iMnINd7kXJ-NFFBUNOqyhqCVXxVB80wg");
+}
+.back2{
+    background-image: url("https://images.pexels.com/photos/209695/pexels-photo-209695.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.back3{
+    background-image: url("http://currentaffairs.iqrace.in/wp-content/uploads/2018/01/google.jpg");
+}
+.back4{
+    background-image: url("https://cnet3.cbsistatic.com/img/dObnYj9wWEBfK7SYtDpSE-cwxKU=/830x467/2018/10/13/92cde876-c7d5-4762-a297-94214173e5f2/106-google-pixel-3.jpg");
+}
+.back5{
+    background-image: url("https://images.pexels.com/photos/47319/phone-dial-old-arrangement-47319.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.back6{
+    background-image: url("https://i.amz.mshcdn.com/m3ksIBSeyi70ezdx5nT_TZRpcZk=/fit-in/1200x9600/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F752293%2F605203f8-da4e-40b1-9d95-11fe1fcd3ba1.JPG");
+}
+.back7{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVUHSWH31q2_EHVLsA4BBQAagO8C5jSWjKWw-Wil9REvEiaDb7");
+}
+.back8{
+    background-image: url("https://assets.pcmag.com/media/images/450179-samsung-galaxy-s8.jpg?width=810&height=456");
+}
+.tekst:hover {
+ background-image: none;
+}
+.tekst:hover h2, .tekst:hover p {
+    visibility: visible;
+} 
+
+
 
